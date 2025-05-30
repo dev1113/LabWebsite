@@ -14,7 +14,6 @@ title                    : "RNA Translation lab"
 title_separator          : "-"
 header:
   sticky                 : true
-  overlay_image          : "/assets/images/lab_banner.jpg"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sonia Chothani"
 description              : "RNA Translation lab"
