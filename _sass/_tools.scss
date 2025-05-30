@@ -4,6 +4,12 @@
   gap: 20px; /* space between images */
   justify-content: center;
 }
+.tool-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
 
 .image-hover-container {
   position: relative;
