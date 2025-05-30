@@ -1,11 +1,8 @@
 ---
-layout: splash
+layout: default
 title: "RNA Translation Lab"
 permalink: /
-header:
-  actions:
-    - label: "Join Us"
-      url: "/join/"
+classes: landing
 ---
 
 <div class="hero-section">
@@ -28,4 +25,3 @@ header:
     <a href="/join/" class="cta-button">Join Us</a>
   </div>
 </div>
-
