@@ -7,20 +7,21 @@ classes: tools
 ---
 
 <div class="tool-gallery">
+  <h3> deltaTE </h3>
   <div class="image-hover-container">
     <a href="https://github.com/SGDDNB/translational_regulation">
       <img src="{{ '/assets/images/delta-te.jpg' | relative_url }}" alt="deltaTE tool image">
       <div class="hover-text">
-        deltaTE — Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        deltaTE — Detection and classification of differential translation-efficiency genes.
       </div>
     </a>
   </div>
-
+  <h3> CLIP-reg </h3>
   <div class="image-hover-container">
     <a href="https://github.com/SGDDNB/CLIPreg">
       <img src="{{ '/assets/images/clip-reg.png' | relative_url }}" alt="CLIPreg tool image">
       <div class="hover-text">
-        CLIPreg — Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        CLIPreg — Constructing translational regulatory networks from CLIP-, Ribo- and RNA-seq.
       </div>
     </a>
   </div>
