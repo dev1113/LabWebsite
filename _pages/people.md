@@ -3,24 +3,33 @@ layout: single
 title: "People"
 permalink: /people/
 ---
-<img 
-  src="{{ '/assets/images/Sonia.webp' | relative_url }}" 
-  alt="Tool preview" 
-  style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;" />
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img 
+    src="{{ '/assets/images/Sonia.webp' | relative_url }}" 
+    alt="Dr. Sonia Chothani" 
+    style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" />
 
-### Principal Investigator
-**Dr. Sonia Chothani**  
-Principal Investigator, RNA Translation Lab  
-Email:  
-[Google Scholar](https://scholar.google.com/citations?user=HdP8YrIAAAAJ&hl=en&oi=ao) 
+  <div>
+    <h3>Principal Investigator</h3>
+    <strong>Dr. Sonia Chothani</strong><br>
+    Principal Investigator, RNA Translation Lab<br>
+    Email: <br>
+    <a href="https://scholar.google.com/citations?user=HdP8YrIAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
+  </div>
+</div>
 
-<img 
-  src="{{ '/assets/images/Devika.jpg' | relative_url }}" 
-  alt="Tool preview" 
-  style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;" />
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img 
+    src="{{ '/assets/images/Devika.jpg' | relative_url }}" 
+    alt="Ms. Devika Menon" 
+    style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" />
 
-### Current Members
-- Ms. Devika Menon – Research Officer (Computational Biologist)
+  <div>
+    <h3>Current Members</h3>
+    <strong>Ms. Devika Menon</strong> – Research Officer (Computational Biologist)
+  </div>
+</div>
+
 
 ### Alumni
 - Ms. Hannah Yeo – Internship student (July 2024 - May 2025)
