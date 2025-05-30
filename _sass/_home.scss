@@ -1,4 +1,14 @@
+.page-wrapper {
+  height: 100vh;        /* restrict height to viewport */
+  overflow-y: scroll;   /* allow vertical scroll */
+  scroll-snap-type: y mandatory;  /* enable scroll snapping */
+}
 
+.page-section {
+  height: 100vh;        /* each section fills viewport */
+  scroll-snap-align: start; /* snap to top of section */
+  position: relative;
+}
 .hero-section {
   height: 100vh;
   position: relative;
