@@ -5,7 +5,7 @@ permalink: /
 classes: landing
 ---
 
-<div class="hero-section">
+<div class="hero-section fade-in">
   <img src="{{ '/assets/images/Thesis_cover.png' | relative_url }}" alt="Lab Hero Image" />
   <div class="hero-text">
     <h1>RNA Translation Lab</h1>
@@ -13,7 +13,7 @@ classes: landing
   </div>
 </div>
 
-<div class="full-page-layout">
+<div class="full-page-layout fade-in">
   <div class="sidebar-image">
     <img src="{{ '/assets/images/Thesis_cover.png' | relative_url }}" alt="Vertical Sidebar Image" />
   </div>
@@ -25,3 +25,4 @@ classes: landing
     <a href="/join/" class="cta-button">Join Us</a>
   </div>
 </div>
+
