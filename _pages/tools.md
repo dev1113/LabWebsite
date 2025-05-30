@@ -3,7 +3,7 @@ layout: single
 title: "Tools"
 classes: publications-page
 permalink: /tools/
-css: "/assets/css/tools.css"
+classes: tools
 ---
 
 
