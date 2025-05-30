@@ -13,6 +13,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "RNA Translation lab"
 title_separator          : "-"
 header:
+  sticky                 : true
   overlay_image          : "/assets/images/lab_banner.jpg"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sonia Chothani"
