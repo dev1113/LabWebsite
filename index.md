@@ -8,7 +8,13 @@ header:
       url: "/join/"
 ---
 
-
+<div class="hero-section">
+  <img src="{{ '/assets/images/Thesis_cover.png' | relative_url }}" alt="Lab Hero Image" />
+  <div class="hero-text">
+    <h1>RNA Translation Lab</h1>
+    <p>Discovering the unknowns of translation...</p>
+  </div>
+</div>
 
 <div class="full-page-layout">
   <div class="sidebar-image">
