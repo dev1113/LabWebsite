@@ -3,19 +3,28 @@ layout: single
 title: "Tools"
 classes: publications-page
 permalink: /tools/
+css: "/assets/css/tools.css"
 ---
 
 
+<div class="image-hover-container" style="margin-bottom: 20px;">
+  <a href="https://github.com/SGDDNB/translational_regulation">
+    <img src="{{ '/assets/images/delta-te.jpg' | relative_url }}" alt="deltaTE tool image">
+    <div class="hover-text">
+      deltaTE — Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+  </a>
+</div>
 
-<a href="https://github.com/SGDDNB/translational_regulation" class="text-link">
-  <strong class="fab fa-github"></strong>deltaTE
-</a>
-<img src="{{ '/assets/images/delta-te.jpg' | relative_url }}" alt="Tool preview" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
+<div class="image-hover-container" style="margin-bottom: 20px;">
+  <a href="https://github.com/SGDDNB/CLIPreg">
+    <img src="{{ '/assets/images/clip-reg.png' | relative_url }}" alt="CLIPreg tool image">
+    <div class="hover-text">
+      CLIPreg — Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div>
+  </a>
+</div>
 
-<a href="https://github.com/SGDDNB/CLIPreg" class="text-link">
-  <strong class="fab fa-github"></strong>CLIPreg
-</a>
-<img src="{{ '/assets/images/clip-reg.png' | relative_url }}" alt="Tool preview" style="max-width: 100%; height: auto; margin-bottom: 10px;"/>
 
 
 
