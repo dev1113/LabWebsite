@@ -3,6 +3,10 @@ layout: single
 title: "People"
 permalink: /people/
 ---
+<img 
+  src="{{ '/assets/images/Sonia.webp' | relative_url }}" 
+  alt="Tool preview" 
+  style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;" />
 
 ### Principal Investigator
 **Dr. Sonia Chothani**  
