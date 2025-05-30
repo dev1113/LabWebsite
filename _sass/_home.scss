@@ -112,11 +112,12 @@
     padding: 2rem;
   }
 }
-.site-header {
-  position: sticky !important;
+.site-header, .masthead__menu {
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 9999;
-  background-color: white;
 }
 html {
   scroll-behavior: smooth;
