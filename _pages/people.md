@@ -13,7 +13,6 @@ permalink: /people/
   <div>
     <strong>Dr. Sonia Chothani</strong><br>
     Principal Investigator, RNA Translation Lab<br>
-    Email: <br>
     <a href="https://scholar.google.com/citations?user=HdP8YrIAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
   </div>
 </div>
