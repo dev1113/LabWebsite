@@ -1,3 +1,41 @@
+.hero-section {
+  height: 100vh;
+  position: relative;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.7;
+  }
+
+  .hero-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 700px;
+    padding: 1rem;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
 .full-page-layout {
   display: flex;
   min-height: 100vh; /* Full vertical height */
