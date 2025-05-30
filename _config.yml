@@ -134,6 +134,7 @@ author:
 # Site Footer
 footer:
   links: false
+  custom: true
     #- label: "Twitter"
       # icon: "fab fa-fw fa-twitter-square"
       # url:
