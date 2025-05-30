@@ -3,6 +3,7 @@ layout: single
 title: "People"
 permalink: /people/
 ---
+<h3>Principal Investigator</h3>
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
   <img 
     src="{{ '/assets/images/Sonia.webp' | relative_url }}" 
@@ -10,7 +11,6 @@ permalink: /people/
     style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" />
 
   <div>
-    <h3>Principal Investigator</h3>
     <strong>Dr. Sonia Chothani</strong><br>
     Principal Investigator, RNA Translation Lab<br>
     Email: <br>
@@ -18,14 +18,13 @@ permalink: /people/
   </div>
 </div>
 
+<h3>Current Members</h3>
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
   <img 
     src="{{ '/assets/images/Devika.jpg' | relative_url }}" 
     alt="Ms. Devika Menon" 
     style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" />
-
   <div>
-    <h3>Current Members</h3>
     <strong>Ms. Devika Menon</strong> – Research Officer (Computational Biologist)
   </div>
 </div>
