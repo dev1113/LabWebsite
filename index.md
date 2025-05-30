@@ -10,7 +10,7 @@ header:
 
 <div class="full-page-layout">
   <div class="sidebar-image">
-    <img src="/assets/images/Thesis_cover.png" alt="Vertical Sidebar Image" />
+    <img src="{{ '/assets/images/Thesis_cover.png' | relative_url }}" alt="Vertical Sidebar Image" />
   </div>
   <div class="main-content">
     <h1>RNA Translation Lab</h1>
