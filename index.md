@@ -20,9 +20,8 @@ classes: landing
     </div>
     <div class="main-content">
       <h1>Laboratory of RNA Translation</h1>
-      <p>Welcome to the RNA Translation Lab at the Genome Institute of Singapore (A*STAR).</p>
-      <p><i>We study RNA translation biology in human health and disease using data-driven approaches, with a focus on uncovering hidden proteins in cancer.</i></p>
-      <p><i>💡 We are part of global efforts to annotate translation events and develop community resources.</i></p>
+      <p><i>Genome Institute of Singapore, A*STAR, Singapore</i></p>
+      <p>We are a data-driven research group uncovering missed layer of gene expression - beyond what the genome annotation tells us. Our work focuses on discovering non-canonical proteins and hidden translation events that play critical roles in human disease. Using high-throughput data and computational approaches, we aim to rewrite the annotations of translation regions throughout the genome.</p>
       <a href="/join/" class="cta-button">Join Us</a>
     </div>
   </section>
