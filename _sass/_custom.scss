@@ -86,3 +86,9 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+.page .publications-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
