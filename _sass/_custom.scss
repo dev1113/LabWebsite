@@ -33,11 +33,13 @@
   margin-bottom: 3rem;
   justify-content: center;
 
-  @media (max-width: 20000px) {
+  @media (max-width: 768px) {
+  .publication-entry {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
+}
 }
 
 /* Image + hover text container */
@@ -85,4 +87,11 @@
 .pubimage-hover-container:hover .hover-text {
   opacity: 1;
   transform: translateX(0);
+}
+
+.page__content {
+  max-width: none !important;
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
 }
