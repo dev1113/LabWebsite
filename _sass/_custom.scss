@@ -1,16 +1,4 @@
-/* Link styles specific to the publications page */
-.publications-page {
-  a.text-link {
-    color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-/* Wrapper for each publication entry */
+/* Publication container */
 .publication-entry {
   display: flex;
   align-items: flex-start;
@@ -24,91 +12,59 @@
   }
 }
 
-/* Optional wrapper to constrain text width */
+/* Constrain publication text width */
 .publication-text {
   flex: 1;
   max-width: 600px;
 }
 
-/* Combined container for image and hover text side-by-side */
-.pubimage-wrapper {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-  flex-wrap: nowrap;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* Image container only */
+/* Image and hover box container */
 .pubimage-hover-container {
+  position: relative;
   width: 300px;
   height: 300px;
-  overflow: hidden;
-  border-radius: 10px;
   flex-shrink: 0;
-  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
+/* Cover image */
 .pubimage-hover-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
   transition: opacity 0.3s ease;
+  border-radius: 10px;
 }
 
+/* Dim image on hover */
 .pubimage-hover-container:hover img {
   opacity: 0.4;
 }
 
-/* Separate hover text box (now in layout) */
-.hover-text-box {
-  background-color: #f0f0f0;
-  color: #111;
-  padding: 1rem;
-  font-size: 14px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  flex: 1;
-  max-width: 500px;
-  text-align: left;
-}
-
-/* Hover text box that appears to the right */
+/* Hidden hover box */
 .pubimage-hover-container .hover-text {
   position: absolute;
   top: 0;
-  left: 100%;
-  width: 350px; /* Wider for horizontal layout */
-  max-height: 100%;
-  padding: 1rem;
+  left: 100%; /* Start offscreen */
+  width: 400px;
+  height: 100%;
   background-color: #f0f0f0;
-  color: #111;
-  font-size: 14px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 5;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  transition: left 0.4s ease, margin-left 0.4s ease;
-  z-index: 2;
-  overflow: auto;
+  color: #111;
+  font-size: 14px;
   text-align: left;
-  word-break: break-word;
 }
 
-/* Image dims slightly on hover */
-.pubimage-hover-container:hover img {
-  opacity: 0.4;
-}
-
-/* Slide the hover text in from the right */
+/* Slide in on hover */
 .pubimage-hover-container:hover .hover-text {
-  left: calc(100% + 10px);
+  left: calc(100% + 10px); /* Slide in beside image */
 }
