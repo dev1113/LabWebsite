@@ -16,6 +16,7 @@
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 3rem;
+  justify-content: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
