@@ -10,7 +10,7 @@ classes: landing
     <img src="{{ '/assets/images/Thesis_cover.png' | relative_url }}" alt="Lab Hero Image" />
     <div class="hero-text">
       <h1>Laboratory of RNA Translation</h1>
-      <p>Discovering the unknowns of translation...</p>
+      <p>Uncovering the hidden layer of gene expression</p>
     </div>
   </section>
 
