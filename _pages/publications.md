@@ -6,10 +6,13 @@ classes:
   - pubimage-hover-container
 permalink: /publications/
 ---
-
-<a href="https://www.tandfonline.com/doi/full/10.1080/15476286.2023.2279845" class="text-link">
-  Chothani, S., Ho, L., Schafer, S., & Rackham, O. (2023). Discovering microproteins: making the most of ribosome profiling data. RNA biology, 20(1), 943-954.
-</a>
+<div class="publication-entry">
+  <div class="publication-text">
+    <a href="https://www.tandfonline.com/doi/full/10.1080/15476286.2023.2279845" class="text-link">
+     Chothani, S., Ho, L., Schafer, S., & Rackham, O. (2023). Discovering microproteins: making the most of ribosome profiling data. RNA biology, 20(1), 943-954.
+    </a>
+  </div>
+</div>
 
 <div class="pubimage-hover-container">
         <img src="{{ '/assets/images/cover.tif' | relative_url }}"  alt="MolCell cover image" style="width: 350px;height: 400px;">
