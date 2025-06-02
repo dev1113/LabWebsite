@@ -1,4 +1,18 @@
 /* Publication container */
+
+.publications-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Optional: center the title (if it's still off) */
+.publications-page .page__title {
+  text-align: center;
+  width: 100%;
+} 
+
 .publications-page {
   a.text-link {
     color: inherit;
