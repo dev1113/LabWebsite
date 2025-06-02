@@ -10,6 +10,9 @@ permalink: /publications/
 </a>
 
 <img src="{{ '/assets/images/cover.tif' | relative_url }}" alt="MolCell cover image" style="width: 150px;>
+<div class="hover-text">
+         On the cover: In Greek mythology, Atlas is a Titan who carries the world on his shoulders. In modern language, because of the work of the 16th century geographer Mercator, the term atlas has come to signify “a collection of maps of the known world.” The illustration shows Atlas holding a translating ribosome, in reference to the paper by Chothani et al. in this issue of Molecular Cell, in which the authors present a comprehensive map of human RNA translation in multiple tissues and cell types. Illustration: Dr. Eleonora Adami.
+</div>
 <a href="https://www.cell.com/molecular-cell/fulltext/S1097-2765(22)00606-2?uuid=uuid%3Ad64a17c6-406a-4124-96ed-d6ebc23c1cee" class="text-link">
   Chothani, S. P., Adami, E., Widjaja, A. A., Langley, S. R., Viswanathan, S., Pua, C. J., ... & Schafer, S. (2022). A high-resolution map of human RNA translation. Molecular cell, 82(15), 2885-2899.
 </a>
