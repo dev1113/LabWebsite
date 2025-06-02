@@ -2,6 +2,7 @@
 layout: single
 title: "Publications"
 classes: publications-page
+classes: pubimage-hover-container
 permalink: /publications/
 ---
 
