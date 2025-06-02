@@ -10,6 +10,26 @@
   }
 }
 
+/* Wrapper for each publication entry */
+.publication-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Optional wrapper to constrain text width */
+.publication-text {
+  flex: 1;
+  max-width: 600px;
+}
+
 /* Container for publication cover image with hover effect */
 .pubimage-hover-container {
   position: relative;
@@ -18,6 +38,7 @@
   display: flex;
   overflow: hidden;
   border-radius: 10px;
+  flex-shrink: 0;
 }
 
 /* Image inside the container */
