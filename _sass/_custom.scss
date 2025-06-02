@@ -55,8 +55,8 @@
   position: absolute;
   top: 0;
   left: 100%; /* Positioned just outside the image */
-  width: 250px;
   height: 100%;
+  width: 400px; /* Make this wider */
   padding: 1rem;
   background-color: #f0f0f0;
   color: #111;
@@ -68,6 +68,9 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   transition: left 0.4s ease, margin-left 0.4s ease;
   z-index: 2;
+  overflow-y: auto; /* Optional: scroll if content exceeds height */
+  white-space: normal; /* Allow wrapping */
+  text-align: left;
 }
 
 /* Image dims slightly on hover */
