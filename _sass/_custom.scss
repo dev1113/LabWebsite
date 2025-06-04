@@ -6,6 +6,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body:not(.home) .page__content {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .publications-page,
 .publications-page .page__content,
 .publications-page .wrapper,
