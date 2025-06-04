@@ -1,38 +1,43 @@
-/* Center everything on the publications page with max width and auto margins */
-
-html, body {
+/* Reset global margin and padding */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  width: 100%;
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
+/* Ensure the body takes full width and height */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Adjust the publications page container */
 .publications-page {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  width: 100vw;
-  margin: 0;
-  padding: 2rem 1rem;
-  box-sizing: border-box;
-}
-
-.page__content {
+  align-items: center;
   width: 100%;
-  padding: 0;
-  box-sizing: border-box;
+  max-width: 100%; /* Allow full width */
+  padding: 2rem 1rem; /* Adjust padding as needed */
+  margin: 0 auto;
 }
 
+/* Style for individual publication entries */
 .publication-entry {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
   width: 100%;
-  max-width: 100%;
+  max-width: 100%; /* Allow full width */
 }
 
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .publication-entry {
     flex-direction: column;
@@ -41,10 +46,7 @@ html, body {
   }
 }
 
-
-
-
-/* Optional: center the title if needed */
+/* Optional: Center the title if needed */
 .publications-page .page__title {
   text-align: center;
   width: 100%;
@@ -66,12 +68,16 @@ html, body {
   position: relative;
   border-radius: 10px;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%; /* Allow full width */
 }
 
 /* Cover image */
 .pubimage-hover-container img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 300px; /* Limit max width */
+  height: auto;
   object-fit: cover;
   transition: opacity 0.3s ease;
   border-radius: 10px;
@@ -107,3 +113,10 @@ html, body {
   transform: translateX(0);
 }
 
+/* Remove side padding on page content so it uses full width inside parent */
+.page__content {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
