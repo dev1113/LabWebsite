@@ -4,10 +4,27 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 3000px;
-  margin: 0 auto;
   padding: 2rem;
 }
+
+.publication-entry {
+  display: flex;
+  justify-content: flex-start; // ← change from center to flex-start
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  max-width: 900px; // ← add this
+  width: 100%;      // ← ensure it stretches
+}
+
+@media (max-width: 768px) {
+  .publication-entry {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 
 /* Optional: center the title if needed */
 .publications-page .page__title {
@@ -25,22 +42,6 @@
   text-decoration: underline;
 }
 
-/* Publication entry layout */
-.publication-entry {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-  margin-bottom: 3rem;
-  justify-content: center;
-
-  @media (max-width: 768px) {
-  .publication-entry {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-}
-}
 
 /* Image + hover text container */
 .pubimage-hover-container {
