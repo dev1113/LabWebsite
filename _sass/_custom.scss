@@ -25,10 +25,6 @@ body:not(.home) .page__content {
   box-sizing: border-box;
 }
 
-.publications-page { background: lightblue; }
-.publications-page .page__content { background: lightgreen; }
-.publications-page .container { background: pink; }
-
 .publications-page .page__content p,
 .publications-page .page__content .publication-entry,
 .publications-page .page__content > * {
@@ -93,8 +89,7 @@ body, html,
 /* Link styles */
 .publications-page a.text-link {
   color: inherit;
-  text-decoration: none;
-  display: flex; /* or flex, depending on layout */
+  text-decoration: none
   width: 100% !important;
   max-width: none !important;
   box-sizing: border-box;
