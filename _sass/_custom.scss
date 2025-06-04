@@ -2,20 +2,22 @@
 .publications-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch; // ← instead of center!
   width: 100%;
   padding: 2rem;
 }
 
+
 .publication-entry {
   display: flex;
-  justify-content: flex-start; // ← change from center to flex-start
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 3rem;
-  max-width: 900px; // ← add this
-  width: 100%;      // ← ensure it stretches
+  max-width: 100%;  // ← allow full width now
+  width: 100%;
 }
+
 
 @media (max-width: 768px) {
   .publication-entry {
@@ -89,11 +91,11 @@
   opacity: 1;
   transform: translateX(0);
 }
+
 .page__content {
-  max-width: 900px;
+  max-width: 1200px; // ← bump it up from 900px if you want more space
   width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
   box-sizing: border-box;
 }
-
