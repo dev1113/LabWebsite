@@ -24,7 +24,14 @@ body:not(.home) .page__content {
   padding: 0 !important;
   box-sizing: border-box;
 }
-
+.publications-page,
+.publications-page .page__content,
+.publications-page .wrapper,
+.publications-page .container,
+.publications-page .site-content,
+.publications-page .main {
+  outline: 2px dashed red;
+}
 .publications-page { background: lightblue; }
 .publications-page .page__content { background: lightgreen; }
 .publications-page .container { background: pink; }
