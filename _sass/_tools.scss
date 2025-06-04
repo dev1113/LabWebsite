@@ -49,3 +49,14 @@
 .image-hover-container:hover .hover-text {
   opacity: 1;
 }
+.page__content {
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    max-width: 1200px; // Desktop width
+    margin: 0 auto;
+  }
+}
+
