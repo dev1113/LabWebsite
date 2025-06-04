@@ -3,9 +3,9 @@ layout: single
 title: "Publications"
 classes:
   - publications-page
-  - pubimage-hover-container
 permalink: /publications/
 ---
+
 <div class="publication-entry">
   <div class="publication-text">
     <a href="https://www.tandfonline.com/doi/full/10.1080/15476286.2023.2279845" class="text-link">
@@ -14,11 +14,13 @@ permalink: /publications/
   </div>
 </div>
 
-<div class="pubimage-hover-container">
-        <img src="{{ '/assets/images/cover.tif' | relative_url }}"  alt="MolCell cover image" style="width: 350px;height: 450px;">
+<div class="publication-entry">
+  <div class="pubimage-hover-container">
+      <img src="{{ '/assets/images/cover.tif' | relative_url }}"  alt="MolCell cover image" style="width: 350px;height: 450px;">
         <div class="hover-text">
           On the cover: In Greek mythology, Atlas is a Titan who carries the world on his shoulders. In modern language, because of the work of the 16th century geographer Mercator, the term atlas has come to signify “a collection of maps of the known world.” The illustration shows Atlas holding a translating ribosome, in reference to the paper by Chothani et al. in this issue of Molecular Cell, in which the authors present a comprehensive map of human RNA translation in multiple tissues and cell types. Illustration: Dr. Eleonora Adami.
         </div>
+  </div>
 </div>
 
 <div class="publication-entry">
