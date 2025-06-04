@@ -11,16 +11,18 @@
 body, html,
 .site-wrapper, .container {
   max-width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
   width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* Adjust the publications page container */
 .publications-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
   max-width: 100%; /* Allow full width */
   padding-left: 0;
@@ -78,7 +80,7 @@ body, html,
 /* Cover image */
 .pubimage-hover-container img {
   width: 100%;
-  max-width: 300px; /* Limit max width */
+  max-width: none; /* Limit max width */
   height: auto;
   object-fit: cover;
   transition: opacity 0.3s ease;
