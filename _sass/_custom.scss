@@ -17,7 +17,9 @@
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-
+.publications-page { background: lightblue; }
+.publications-page .page__content { background: lightgreen; }
+.publications-page .container { background: pink; }
 
 
 /* Ensure the body takes full width and height */
