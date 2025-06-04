@@ -36,6 +36,19 @@ body:not(.home) .page__content {
 .publications-page .page__content { background: lightgreen; }
 .publications-page .container { background: pink; }
 
+.publications-page .page__content p,
+.publications-page .page__content .publication-entry,
+.publications-page .page__content > * {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  text-align: left !important;
+}
+
+
+
 
 /* Ensure the body takes full width and height */
 body, html,
