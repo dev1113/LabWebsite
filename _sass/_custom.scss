@@ -17,4 +17,8 @@
     margin: 0 auto;
   }
 }
-
+.publications-page .page__content {
+  max-width: 800px;
+  margin: 2rem auto 0 auto;   // Top margin to move it down
+  padding-left: 1rem;         // Move content to the left (within the block)
+}
