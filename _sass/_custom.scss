@@ -6,17 +6,18 @@
     &:hover {
       text-decoration: underline;
     }
+
+    display: block;
+    margin-bottom: 1.25rem;
+    line-height: 1.6;
   }
 }
-.page__content {
-  max-width: 9000px;
+
+// This ensures good max-width for readability
+.page__content.publications-page {
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.page.wide {
-  display: flex;
-  justify-content: center;
 }
