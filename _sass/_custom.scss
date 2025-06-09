@@ -2,22 +2,20 @@
   a.text-link {
     color: inherit;
     text-decoration: none;
+    display: block;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
 
     &:hover {
       text-decoration: underline;
     }
+  }
 
-    display: block;
-    margin-bottom: 1.25rem;
-    line-height: 1.6;
+  // Ensure the whole content area is centered and readable
+  .page__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
   }
 }
 
-// This ensures good max-width for readability
-.page__content.publications-page {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
