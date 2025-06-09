@@ -11,13 +11,11 @@
     }
   }
 
-  // Ensure the whole content area is centered and readable
+  // Ensure the whole content area is moved down and left
   .page__content {
     max-width: 1000px;
-    margin-top: 3rem;
-    margin-left: 0;
+    margin: 3rem 0 0 2rem; // top right bottom left
     padding-left: 0;
-    margin: 3rem 0 0 2rem;  /
   }
 }
 
