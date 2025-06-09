@@ -1,8 +1,4 @@
 .publications-page {
-  max-width: 100%; /* or 80%, adjust as needed */
-  margin: 0 auto;
-  padding: 0rem;
-
   a.text-link {
     color: inherit;
     text-decoration: none;
@@ -11,4 +7,11 @@
       text-decoration: underline;
     }
   }
+}
+
+.page-publications .page__content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
