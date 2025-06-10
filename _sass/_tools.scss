@@ -49,10 +49,10 @@
 .image-hover-container:hover .hover-text {
   opacity: 1;
 }
-.page__content {
-  width: 100%;
-  padding: 0 2rem;
-  box-sizing: border-box;
+  .page__content {
+    max-width: 1000px;
+    margin: 3rem 0 0 2rem; // top right bottom left
+    padding-left: 0;
 
   @media (min-width: 768px) {
     max-width: 1200px; // Desktop width
